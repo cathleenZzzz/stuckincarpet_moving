@@ -16,7 +16,7 @@
         }
         video {
             position: absolute;
-            width: 64px;
+            width: 64px; /* Adjust size here if needed */
             height: 64px;
             object-fit: cover;
             pointer-events: none;
@@ -27,22 +27,34 @@
 <div id="container"></div>
 
 <script>
+// Load the first-frame JSON
 fetch('gif_gridpositions.json')
     .then(response => response.json())
     .then(data => {
         const container = document.getElementById('container');
+        const positions = data.positions;
+        const gridSize = data.grid_size;
+        const containerWidth = window.innerWidth;
+        const containerHeight = window.innerHeight;
+        
+        // Size of each grid cell
+        const cellWidth = containerWidth / gridSize.nx;
+        const cellHeight = containerHeight / gridSize.ny;
 
-        for (const [filename, pos] of Object.entries(data)) {
-            const mp4name = filename.replace('.gif', '.mp4'); // <-- 🔥 Fix here!
+        for (const [filename, pos] of Object.entries(positions)) {
+            // Convert 'latent_loop_seed_1000_firstframe.jpg' to 'latent_loop_seed_1000.mp4'
+            const baseName = filename.replace('_firstframe.jpg', '.mp4');
             const video = document.createElement('video');
-            video.src = `gifs/${mp4name}`;
+            video.src = `gifs/${baseName}`;  // 🎯 Folder must be gifs/
             video.autoplay = true;
             video.loop = true;
             video.muted = true;
             video.playsInline = true;
 
-            video.style.left = (pos[0] * window.innerWidth) + 'px';
-            video.style.top = (pos[1] * window.innerHeight) + 'px';
+            video.style.left = (pos.col * cellWidth) + 'px';
+            video.style.top = (pos.row * cellHeight) + 'px';
+            video.style.width = `${cellWidth}px`;
+            video.style.height = `${cellHeight}px`;
 
             container.appendChild(video);
         }
@@ -53,4 +65,3 @@ fetch('gif_gridpositions.json')
 </script>
 </body>
 </html>
-
