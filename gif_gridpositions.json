@@ -1,0 +1,424 @@
+{
+  "grid_size": {
+    "nx": 13,
+    "ny": 8
+  },
+  "positions": {
+    "latent_loop_seed_10000000_firstframe.jpg": {
+      "col": 12,
+      "row": 7
+    },
+    "latent_loop_seed_10000_firstframe.jpg": {
+      "col": 7,
+      "row": 1
+    },
+    "latent_loop_seed_1000_firstframe.jpg": {
+      "col": 11,
+      "row": 7
+    },
+    "latent_loop_seed_12419_firstframe.jpg": {
+      "col": 4,
+      "row": 1
+    },
+    "latent_loop_seed_125364_firstframe.jpg": {
+      "col": 2,
+      "row": 0
+    },
+    "latent_loop_seed_12673_firstframe.jpg": {
+      "col": 6,
+      "row": 6
+    },
+    "latent_loop_seed_184528_firstframe.jpg": {
+      "col": 1,
+      "row": 2
+    },
+    "latent_loop_seed_1_firstframe.jpg": {
+      "col": 8,
+      "row": 7
+    },
+    "latent_loop_seed_2000_firstframe.jpg": {
+      "col": 10,
+      "row": 4
+    },
+    "latent_loop_seed_2056_firstframe.jpg": {
+      "col": 1,
+      "row": 1
+    },
+    "latent_loop_seed_213618_firstframe.jpg": {
+      "col": 12,
+      "row": 5
+    },
+    "latent_loop_seed_214436_firstframe.jpg": {
+      "col": 0,
+      "row": 3
+    },
+    "latent_loop_seed_23452_firstframe.jpg": {
+      "col": 0,
+      "row": 1
+    },
+    "latent_loop_seed_23478_firstframe.jpg": {
+      "col": 4,
+      "row": 6
+    },
+    "latent_loop_seed_235_firstframe.jpg": {
+      "col": 7,
+      "row": 7
+    },
+    "latent_loop_seed_236471_firstframe.jpg": {
+      "col": 3,
+      "row": 1
+    },
+    "latent_loop_seed_2578_firstframe.jpg": {
+      "col": 0,
+      "row": 6
+    },
+    "latent_loop_seed_2_firstframe.jpg": {
+      "col": 10,
+      "row": 5
+    },
+    "latent_loop_seed_3000_firstframe.jpg": {
+      "col": 1,
+      "row": 0
+    },
+    "latent_loop_seed_304_firstframe.jpg": {
+      "col": 0,
+      "row": 0
+    },
+    "latent_loop_seed_31878_firstframe.jpg": {
+      "col": 6,
+      "row": 7
+    },
+    "latent_loop_seed_3241_firstframe.jpg": {
+      "col": 12,
+      "row": 2
+    },
+    "latent_loop_seed_327491_firstframe.jpg": {
+      "col": 7,
+      "row": 5
+    },
+    "latent_loop_seed_32842_firstframe.jpg": {
+      "col": 2,
+      "row": 6
+    },
+    "latent_loop_seed_3289_firstframe.jpg": {
+      "col": 5,
+      "row": 1
+    },
+    "latent_loop_seed_3346_firstframe.jpg": {
+      "col": 0,
+      "row": 2
+    },
+    "latent_loop_seed_34018_firstframe.jpg": {
+      "col": 9,
+      "row": 7
+    },
+    "latent_loop_seed_3404_firstframe.jpg": {
+      "col": 9,
+      "row": 3
+    },
+    "latent_loop_seed_341935_firstframe.jpg": {
+      "col": 5,
+      "row": 7
+    },
+    "latent_loop_seed_3419_firstframe.jpg": {
+      "col": 0,
+      "row": 5
+    },
+    "latent_loop_seed_34572_firstframe.jpg": {
+      "col": 10,
+      "row": 0
+    },
+    "latent_loop_seed_35103_firstframe.jpg": {
+      "col": 6,
+      "row": 2
+    },
+    "latent_loop_seed_352_firstframe.jpg": {
+      "col": 2,
+      "row": 5
+    },
+    "latent_loop_seed_35868_firstframe.jpg": {
+      "col": 8,
+      "row": 3
+    },
+    "latent_loop_seed_385294_firstframe.jpg": {
+      "col": 10,
+      "row": 1
+    },
+    "latent_loop_seed_39241_firstframe.jpg": {
+      "col": 11,
+      "row": 3
+    },
+    "latent_loop_seed_3945_firstframe.jpg": {
+      "col": 4,
+      "row": 3
+    },
+    "latent_loop_seed_39624_firstframe.jpg": {
+      "col": 8,
+      "row": 5
+    },
+    "latent_loop_seed_4000_firstframe.jpg": {
+      "col": 1,
+      "row": 7
+    },
+    "latent_loop_seed_4278_firstframe.jpg": {
+      "col": 9,
+      "row": 1
+    },
+    "latent_loop_seed_436_firstframe.jpg": {
+      "col": 7,
+      "row": 2
+    },
+    "latent_loop_seed_4472_firstframe.jpg": {
+      "col": 2,
+      "row": 7
+    },
+    "latent_loop_seed_45346_firstframe.jpg": {
+      "col": 2,
+      "row": 2
+    },
+    "latent_loop_seed_453491_firstframe.jpg": {
+      "col": 10,
+      "row": 2
+    },
+    "latent_loop_seed_456_firstframe.jpg": {
+      "col": 8,
+      "row": 2
+    },
+    "latent_loop_seed_45728_firstframe.jpg": {
+      "col": 3,
+      "row": 3
+    },
+    "latent_loop_seed_459_firstframe.jpg": {
+      "col": 1,
+      "row": 3
+    },
+    "latent_loop_seed_4603_firstframe.jpg": {
+      "col": 11,
+      "row": 2
+    },
+    "latent_loop_seed_4672_firstframe.jpg": {
+      "col": 0,
+      "row": 4
+    },
+    "latent_loop_seed_467_firstframe.jpg": {
+      "col": 6,
+      "row": 4
+    },
+    "latent_loop_seed_46_firstframe.jpg": {
+      "col": 7,
+      "row": 3
+    },
+    "latent_loop_seed_47210_firstframe.jpg": {
+      "col": 1,
+      "row": 6
+    },
+    "latent_loop_seed_47581_firstframe.jpg": {
+      "col": 8,
+      "row": 1
+    },
+    "latent_loop_seed_47642_firstframe.jpg": {
+      "col": 11,
+      "row": 1
+    },
+    "latent_loop_seed_48592_firstframe.jpg": {
+      "col": 5,
+      "row": 4
+    },
+    "latent_loop_seed_4859_firstframe.jpg": {
+      "col": 4,
+      "row": 0
+    },
+    "latent_loop_seed_5000_firstframe.jpg": {
+      "col": 6,
+      "row": 0
+    },
+    "latent_loop_seed_5284_firstframe.jpg": {
+      "col": 8,
+      "row": 0
+    },
+    "latent_loop_seed_54057_firstframe.jpg": {
+      "col": 9,
+      "row": 4
+    },
+    "latent_loop_seed_5463_firstframe.jpg": {
+      "col": 12,
+      "row": 4
+    },
+    "latent_loop_seed_54763_firstframe.jpg": {
+      "col": 10,
+      "row": 6
+    },
+    "latent_loop_seed_5626_firstframe.jpg": {
+      "col": 4,
+      "row": 2
+    },
+    "latent_loop_seed_5630_firstframe.jpg": {
+      "col": 9,
+      "row": 2
+    },
+    "latent_loop_seed_56658_firstframe.jpg": {
+      "col": 7,
+      "row": 6
+    },
+    "latent_loop_seed_5675_firstframe.jpg": {
+      "col": 11,
+      "row": 6
+    },
+    "latent_loop_seed_56891_firstframe.jpg": {
+      "col": 9,
+      "row": 6
+    },
+    "latent_loop_seed_5711_firstframe.jpg": {
+      "col": 11,
+      "row": 4
+    },
+    "latent_loop_seed_5727_firstframe.jpg": {
+      "col": 6,
+      "row": 1
+    },
+    "latent_loop_seed_57371_firstframe.jpg": {
+      "col": 7,
+      "row": 0
+    },
+    "latent_loop_seed_5764_firstframe.jpg": {
+      "col": 6,
+      "row": 5
+    },
+    "latent_loop_seed_58351_firstframe.jpg": {
+      "col": 2,
+      "row": 4
+    },
+    "latent_loop_seed_58678_firstframe.jpg": {
+      "col": 4,
+      "row": 5
+    },
+    "latent_loop_seed_59276_firstframe.jpg": {
+      "col": 8,
+      "row": 4
+    },
+    "latent_loop_seed_59_firstframe.jpg": {
+      "col": 12,
+      "row": 3
+    },
+    "latent_loop_seed_6000_firstframe.jpg": {
+      "col": 11,
+      "row": 0
+    },
+    "latent_loop_seed_60264_firstframe.jpg": {
+      "col": 0,
+      "row": 7
+    },
+    "latent_loop_seed_60273_firstframe.jpg": {
+      "col": 10,
+      "row": 3
+    },
+    "latent_loop_seed_6242_firstframe.jpg": {
+      "col": 2,
+      "row": 3
+    },
+    "latent_loop_seed_6381_firstframe.jpg": {
+      "col": 12,
+      "row": 0
+    },
+    "latent_loop_seed_64_firstframe.jpg": {
+      "col": 3,
+      "row": 5
+    },
+    "latent_loop_seed_6509_firstframe.jpg": {
+      "col": 5,
+      "row": 0
+    },
+    "latent_loop_seed_65401_firstframe.jpg": {
+      "col": 12,
+      "row": 6
+    },
+    "latent_loop_seed_67264_firstframe.jpg": {
+      "col": 9,
+      "row": 5
+    },
+    "latent_loop_seed_67436_firstframe.jpg": {
+      "col": 1,
+      "row": 5
+    },
+    "latent_loop_seed_674_firstframe.jpg": {
+      "col": 3,
+      "row": 2
+    },
+    "latent_loop_seed_6784_firstframe.jpg": {
+      "col": 4,
+      "row": 4
+    },
+    "latent_loop_seed_67987_firstframe.jpg": {
+      "col": 10,
+      "row": 7
+    },
+    "latent_loop_seed_67_firstframe.jpg": {
+      "col": 3,
+      "row": 4
+    },
+    "latent_loop_seed_69702_firstframe.jpg": {
+      "col": 8,
+      "row": 6
+    },
+    "latent_loop_seed_7028_firstframe.jpg": {
+      "col": 7,
+      "row": 4
+    },
+    "latent_loop_seed_7239_firstframe.jpg": {
+      "col": 3,
+      "row": 0
+    },
+    "latent_loop_seed_741770_firstframe.jpg": {
+      "col": 6,
+      "row": 3
+    },
+    "latent_loop_seed_7457_firstframe.jpg": {
+      "col": 5,
+      "row": 3
+    },
+    "latent_loop_seed_754_firstframe.jpg": {
+      "col": 3,
+      "row": 7
+    },
+    "latent_loop_seed_76234_firstframe.jpg": {
+      "col": 5,
+      "row": 5
+    },
+    "latent_loop_seed_7_firstframe.jpg": {
+      "col": 1,
+      "row": 4
+    },
+    "latent_loop_seed_8000_firstframe.jpg": {
+      "col": 2,
+      "row": 1
+    },
+    "latent_loop_seed_8582_firstframe.jpg": {
+      "col": 12,
+      "row": 1
+    },
+    "latent_loop_seed_8658_firstframe.jpg": {
+      "col": 3,
+      "row": 6
+    },
+    "latent_loop_seed_867_firstframe.jpg": {
+      "col": 5,
+      "row": 2
+    },
+    "latent_loop_seed_8867_firstframe.jpg": {
+      "col": 9,
+      "row": 0
+    },
+    "latent_loop_seed_9342_firstframe.jpg": {
+      "col": 4,
+      "row": 7
+    },
+    "latent_loop_seed_9572_firstframe.jpg": {
+      "col": 5,
+      "row": 6
+    },
+    "latent_loop_seed_9874_firstframe.jpg": {
+      "col": 11,
+      "row": 5
+    }
+  }
+}
