@@ -16,10 +16,10 @@
         }
         video {
             position: absolute;
-            width: 64px;  /* You can adjust this */
+            width: 64px;
             height: 64px;
             object-fit: cover;
-            pointer-events: none; /* so you don't accidentally pause videos by clicking */
+            pointer-events: none;
         }
     </style>
 </head>
@@ -27,19 +27,19 @@
 <div id="container"></div>
 
 <script>
-// Load the JSON file
-fetch('gif_gridpositions.json') // or 'gif_TSNEpositions.json'
+fetch('gif_gridpositions.json')
     .then(response => response.json())
     .then(data => {
         const container = document.getElementById('container');
 
         for (const [filename, pos] of Object.entries(data)) {
+            const mp4name = filename.replace('.gif', '.mp4'); // <-- 🔥 Fix here!
             const video = document.createElement('video');
-            video.src = `gifs/${filename}`;
+            video.src = `gifs/${mp4name}`;
             video.autoplay = true;
             video.loop = true;
             video.muted = true;
-            video.playsInline = true; // Important for mobile!
+            video.playsInline = true;
 
             video.style.left = (pos[0] * window.innerWidth) + 'px';
             video.style.top = (pos[1] * window.innerHeight) + 'px';
@@ -53,3 +53,4 @@ fetch('gif_gridpositions.json') // or 'gif_TSNEpositions.json'
 </script>
 </body>
 </html>
+
